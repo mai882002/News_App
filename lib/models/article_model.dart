@@ -1,7 +1,7 @@
 class ArticleModel {
-  final String image;
+  final String? image;
   final String title;
-  final String subTitle;
+  final String? subTitle;
   final String link;
 
   ArticleModel(
