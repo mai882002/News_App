@@ -40,7 +40,7 @@ class CategoryView extends StatelessWidget {
               ),
             ),
             Text(
-              'cloud',
+              'Cloud',
               style: TextStyle(
                 color: Color.fromARGB(255, 113, 202, 216),
                 fontWeight: FontWeight.bold,
@@ -62,12 +62,15 @@ class CategoryView extends StatelessWidget {
             ],
           ),
         ),
-        child: CustomScrollView(
-          slivers: [
-            NewsListViewBuilder(
-              category: category,
-            ),
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(23.0),
+          child: CustomScrollView(
+            slivers: [
+              NewsListViewBuilder(
+                category: category,
+              ),
+            ],
+          ),
         ),
       ),
     );
