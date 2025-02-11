@@ -51,7 +51,7 @@ class NewsTile extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
                 child: Text(
-                  articleModel.title ?? 'No Title',
+                  articleModel.title,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(

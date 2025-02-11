@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/widgets/category_list_view.dart';
-import '../widgets/news_list_view_builder.dart';
+import 'package:news_app/widgets/news_list_view_builder.dart';
 
-class Homeview extends StatelessWidget {
-  const Homeview({super.key});
+class CategoryView extends StatelessWidget {
+  const CategoryView({
+    Key? key,
+    required this.category,
+  }) : super(key: key);
+
+  final String category;
 
   @override
   Widget build(BuildContext context) {
@@ -58,27 +62,12 @@ class Homeview extends StatelessWidget {
             ],
           ),
         ),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 17.0),
-          child: CustomScrollView(
-            physics: const BouncingScrollPhysics(),
-            slivers: [
-              const SliverToBoxAdapter(
-                child: SizedBox(height: 12),
-              ),
-              const SliverToBoxAdapter(
-                child: CategoriesListView(),
-              ),
-              const SliverToBoxAdapter(
-                child: SizedBox(
-                  height: 22.0,
-                ),
-              ),
-              NewsListViewBuilder(
-                category: 'general',
-              ),
-            ],
-          ),
+        child: CustomScrollView(
+          slivers: [
+            NewsListViewBuilder(
+              category: category,
+            ),
+          ],
         ),
       ),
     );
