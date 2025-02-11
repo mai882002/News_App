@@ -16,7 +16,7 @@ class CategoryCard extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
           border: Border.all(
-            color: Colors.orange,
+            color: Colors.white,
             width: 5,
           ),
           image: DecorationImage(

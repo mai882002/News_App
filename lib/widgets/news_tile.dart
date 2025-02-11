@@ -19,8 +19,9 @@ class NewsTile extends StatelessWidget {
         padding: const EdgeInsets.only(bottom: 22),
         child: Container(
           decoration: BoxDecoration(
+            color: Colors.white,
             border: Border.all(
-              color: Colors.orange,
+              color: Colors.white,
               width: 5,
             ),
             borderRadius: BorderRadius.circular(12),
