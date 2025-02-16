@@ -42,7 +42,9 @@ https://github.com/user-attachments/assets/f1a897e1-cb6e-49e1-b830-a07798e10bb7
 ## 📬 Connect with Me  
 
 💼 **[LinkedIn](https://www.linkedin.com/in/mai-mohamed-563645240)**  
-🐙 **[GitHub](your_github_profile_here)**  
 
 💡 Feel free to ⭐ this repository if you find it useful! 🚀  
 
+
+
+https://github.com/user-attachments/assets/f1a897e1-cb6e-49e1-b830-a07798e10bb7
