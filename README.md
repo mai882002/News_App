@@ -14,7 +14,7 @@
 ## 🎬 Demo  
 
 📽️ *Check out the app in action!*  
-[https://github.com/user-attachments/assets/f1a897e1-cb6e-49e1-b830-a07798e10bb7]  
+https://github.com/user-attachments/assets/f1a897e1-cb6e-49e1-b830-a07798e10bb7
 
 ## ⚙️ Tech Stack  
 
